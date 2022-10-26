@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp 
+	codebase="http://localhost:8080/"
+	href="visiblez.jnlp">
+
+    <information>
+        <title>Hello</title>
+	<vendor>Example</vendor>
+	<homepage href="index.html"></homepage>
+	<offline-allowed></offline>
+    </information>
+    <resources>
+        <j2se version="1.2+"/>
+	<jar href="Runner.jar"> </jar>
+</resources>
+<security>
+	<all-permissions></all>
+</security>
+    <application-desc main-class="Runner"></application>
+</jnlp>
